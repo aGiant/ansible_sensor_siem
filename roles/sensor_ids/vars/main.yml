@@ -44,7 +44,10 @@ packages:
 - libjansson-dev
 - libjansson4
 - pkg-config
-- suricata
+- libnetfilter-queue-dev
+- libnetfilter-queue1
+- libnfnetlink-dev
+- libnfnetlink0
 - libmaxminddb0
 - libmaxminddb-dev
 - mmdb-bin
