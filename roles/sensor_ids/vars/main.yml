@@ -32,6 +32,7 @@ packages:
 - build-essential
 - autoconf
 - automake
+- libkqueue-dev
 - libtool
 - libpcap-dev
 - libnet1-dev
