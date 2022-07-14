@@ -150,7 +150,7 @@
   when: filebeat_installed.stat.exists == False
 
 - name: start zeek
-  shell: "echo {{ansible_password}} | sudo /usr/local/zeek/bin/zeekctl start"
+  shell: "echo {{ansible_password}} | sudo /usr/local/zeek/bin/zeekctl deploy"
   args:
     chdir: "{{ home_dir }}"
 
